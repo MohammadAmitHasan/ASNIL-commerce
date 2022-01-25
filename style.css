@@ -5,16 +5,25 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-.panda-btn{
+.asnil-btn{
     background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
-    border-radius: 8px;
-    padding: 9px 25px;
+    border-radius: 10px;
+    padding: 10px 25px;
     color: white;
     border: none;
 }
-.panda-btn:hover{
+.asnil-btn:hover{
     background-image: linear-gradient(to bottom, rgb(255, 174, 0), red);
     color: white;
+}
+.asnil-special-color{
+    color: #FA804C;
+    line-height: 60px;
+}
+.section-title{
+    font-weight: 700;
+    color: #FF136F;
+    text-align: center;
 }
 
 /* navbar styles */
@@ -34,4 +43,43 @@ nav ul li a:hover{
 }
 .asnil-bgcolor{
     background-color: #fceae8;
+}
+
+/* partner section */
+.partners{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px auto 100px;
+    border: 1px solid;
+    border-image: linear-gradient(to right,rgb(255, 255, 255), rgba(126, 126, 124, 0.226), white);
+    border-image-slice: 1;
+    padding: 20px;
+}
+.partner-logo{
+    margin: 10px 15px;
+}
+
+/* card styles */
+.card-img-container{
+    background-color: #F1F1F1;
+}
+.asnil-round{
+    border-radius: 20px;
+}
+.heading{
+    color: #363958;
+    font-weight: 700;
+}
+.price{
+    font-weight: 900;
+    font-size: 36px;
+    margin: 0;
+}
+.cart-logo{
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
 }
