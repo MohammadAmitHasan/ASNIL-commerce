@@ -5,6 +5,17 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.panda-btn{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    border-radius: 8px;
+    padding: 9px 25px;
+    color: white;
+    border: none;
+}
+.panda-btn:hover{
+    background-image: linear-gradient(to bottom, rgb(255, 174, 0), red);
+    color: white;
+}
 
 /* navbar styles */
 .nav-color{
@@ -15,4 +26,12 @@ nav ul li a{
 }
 nav ul li a:hover{
     background-color: #FF136F;;
+}
+
+/* banner styles */
+.asnil-color{
+    color: #FF136F;
+}
+.asnil-bgcolor{
+    background-color: #fceae8;
 }
